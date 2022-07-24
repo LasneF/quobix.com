@@ -14,7 +14,7 @@ layout: function
 tag defined per operation.
 
 The function is used by
-the [operation-singular-tag]({{< relref "/vacuum/rules/operations/operation-singular-tag" >}}) Rule
+the [operation-singular-tag]({{< relref "/vacuum/rules/tags/operation-singular-tag" >}}) Rule
 
 ---
 

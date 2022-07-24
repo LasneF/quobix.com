@@ -22,7 +22,7 @@ formats:
 Tags are really important for documentation and exploring tools.
 
 This rule checks that an operation has defined tags, and that at least one exists. This rule is a more generic and 
-more useful version of the [operation-singular-tag]({{< relref "/vacuum/rules/operations/operation-singular-tag" >}}).
+more useful version of the [operation-singular-tag]({{< relref "/vacuum/rules/tags/operation-singular-tag" >}}).
 
 ## Why did this violation appear?
 
