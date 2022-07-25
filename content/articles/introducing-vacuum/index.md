@@ -210,7 +210,7 @@ straightforward [set of APIs]({{< relref "/vacuum/api/getting-started">}}) to do
 ## What's next?
 
 [vacuum]({{< relref "/vacuum">}}) is just the first part of a much larger story that I am building around APIs and developer experience.
-I hope it helps you on your journey with [OpenAPI](https://www.openapis.org/), [AsyncAPI](https://www.asyncapi.com/) and API quality.
+I hope it helps you on your journey with [OpenAPI](https://www.openapis.org/) and API quality.
 
 Learn more about getting set up with vacuum in 30 seconds [in this tutorial]({{< relref "/vacuum/start">}}),
 or [why you should care]({{< relref "/vacuum/why">}}) about API-First and quality analysis.
