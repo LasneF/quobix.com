@@ -621,12 +621,11 @@ li.mobile-nav::after {
 
 .instruction-video {
     width: 715px;
-    
     border: 1px dashed var(--secondary-color-lowalpha);
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
     #header-menu {
         display: none;
@@ -771,4 +770,11 @@ li.mobile-nav::after {
     main.content-container {
         margin-top: 20px;
     }
+
+    .instruction-video {
+        width: 100%;
+        border: 1px dashed var(--secondary-color-lowalpha);
+    }
+
+
 }
