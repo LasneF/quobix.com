@@ -76,6 +76,10 @@ It's been designed with enterprise & large scale use, as well as having a consol
 well as a '[vacuum sealed report](/vacuum/commands/report/)' that allows re-rendering of any report in time, without losing any fidelity or re-running
 new logic that could change results.
 
+## Origin story
+
+[Read more about the origin story behind vacuum]({{< relref "/articles/introducing-vacuum" >}}).
+
 
 ## About these docs
 
@@ -106,7 +110,8 @@ I asked myself these questions:
 > _Should I use React?_ I need ultra speed and power - _will it deliver_?
 
 React uses something called [Virtual DOM](https://reactjs.org/docs/faq-internals.html). the TL;DR version is 
-that a 'copy' of the actual [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) is kept in memory. The memory version of the DOM is the source of truth, that's
+that a 'copy' of the actual [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) 
+is kept in memory. The memory version of the DOM is the source of truth, that's
 the model that is mutated. React then '_prints_' the state to the actual DOM, using magic.
 
 Which led to the conclusion:
