@@ -179,12 +179,12 @@ p.codesplit {
 
 
 .highlight pre {
-   
+
     border: none;
     border-left: 2px solid var(--secondary-color);
     padding: 10px 0 10px 20px;
     margin-top: 30px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 pre code {
@@ -203,7 +203,7 @@ figcaption h4 {
     border-bottom: none;
 }
 
-hr.article-footer-divider { 
+hr.article-footer-divider {
     clear: both;
 }
 
@@ -216,7 +216,7 @@ hr.article-footer-divider {
 }
 
 .article-strapline, .about-strapline em {
-    font-size: 25px; 
+    font-size: 25px;
     color: var(--tertiary-color)
 }
 
@@ -297,7 +297,7 @@ blockquote::after {
 .footer hr {
     margin-top: 0;
     margin-bottom: 10px;
-   
+
 
 }
 
@@ -389,8 +389,8 @@ ul.page-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 355px));
     grid-gap: 10px;
-    list-style: none; 
-    list-style-type: none;    
+    list-style: none;
+    list-style-type: none;
 }
 
 
@@ -519,7 +519,7 @@ li.page-list-item sub {
 
 
 .image-grid {
-   
+
  display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 320px));
     grid-gap: 2rem;
@@ -534,10 +534,10 @@ li.page-list-item sub {
      width: auto;
      height: auto;
      max-height: 400px;
-     max-width: 285px ; 
+     max-width: 285px ;
      margin: 0 auto 20px auto;
      border: 1px dashed var(--secondary-color);
-     padding: 5px;         
+     padding: 5px;
  }
 
  .image-grid img:hover {
@@ -562,7 +562,7 @@ figure.inline-figure figcaption {
 }
 
 dt {
-    margin-top: 30px; 
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 dl {
@@ -619,6 +619,12 @@ li.mobile-nav::after {
     content: "";
 }
 
+.instruction-video {
+    width: 715px;
+    
+    border: 1px dashed var(--secondary-color-lowalpha);
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -672,7 +678,7 @@ li.mobile-nav::after {
 
     .content-container {
         margin-top: 120px;
-      
+
     }
 
     .container, .container-fluid {
@@ -700,11 +706,11 @@ li.mobile-nav::after {
         display: block!important;
         height: inherit!important;
     }
-    
-    
+
+
     ul.page-list {
         display: block;
-    
+
     }
     .framed-content hr {
         margin: 50px auto 50px auto
@@ -719,25 +725,25 @@ li.mobile-nav::after {
         line-height: 30px;
         padding-bottom: 10px;
     }
-    
+
     .quobix-header {
         transition: top 0.3s;
         transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
     }
-    
+
     #top-nav-divider {
         margin-top: 2px;
-    
+
     }
 
-    
+
     .image-grid img {
-       
+
         width: 100vw;
         max-width: initial;
     }
 
-    
+
     .article-body {
         margin-top: 50px;
     }
@@ -765,11 +771,4 @@ li.mobile-nav::after {
     main.content-container {
         margin-top: 20px;
     }
-
-
-
-
-
-
-
 }

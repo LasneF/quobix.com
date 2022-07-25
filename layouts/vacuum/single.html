@@ -14,7 +14,7 @@
                 </section>
             </article>
         </section>
-        {{- if gt .WordCount 200 -}}
+        {{- if or (gt .WordCount 200) (.Params.showTOC) -}}
         <div class="right-nav">
             <asisde class="table-of-contents">
                 <p>What's on this page</p>

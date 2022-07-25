@@ -8,7 +8,7 @@ menu:
   vacuum:
     weight: 1
 type: vacuum
-
+showTOC: true
 ---
 
 ## Install via homebrew.
@@ -20,25 +20,35 @@ If you're on MacOS or Linux, the easiest way to install vacuum is via [homebrew]
 
 
 {{< terminal-window
-"install"
+"brew install"
 "brew"
 "install">}}brew install daveshanley/vacuum/vacuum{{< /terminal-window >}}
 
+<video class="instruction-video" controls playsinline loop autoplay muted>
+  <source src="/assets/vacuum/mp4/brew-install.mp4" type="video/mp4">
+</video>
 
 ## Install via [NPM](https://npmjs.com)
 
 {{< terminal-window
 "npm install"
 "npm"
-"i" "-g">}}npm i -g @quobix/vacuum{{< /terminal-window >}}
+"install" "-g">}}npm install -g @quobix/vacuum{{< /terminal-window >}}
+
+<video class="instruction-video" controls playsinline loop autoplay muted>
+  <source src="/assets/vacuum/mp4/npm-install.mp4" type="video/mp4">
+</video>
 
 ## Install via [yarn](https://yarnpkg.com/)
 
 {{< terminal-window
-"yarn install"
+"yarn global add"
 "yarn"
 "global" "add">}}yarn global add @quobix/vacuum{{< /terminal-window >}}
 
+<video class="instruction-video" controls playsinline loop autoplay muted>
+  <source src="/assets/vacuum/mp4/yarn-install.mp4" type="video/mp4">
+</video>
 
 ## Install via curl
 
@@ -49,8 +59,9 @@ This is perhaps the most simple for CD/CD pipelines.
 "curl"
 "-fsSL">}}curl -fsSL https://quobix.com/scripts/install_vacuum.sh | sh{{< /terminal-window >}}
 
-
-
+<video class="instruction-video" controls playsinline loop autoplay muted>
+  <source src="/assets/vacuum/mp4/curl-install.mp4" type="video/mp4">
+</video>
 
 ## Install via Docker.
 
@@ -95,6 +106,10 @@ Then change directory into `vacuum`
 {{< terminal-window
 "vacuum lint"
 "./vacuum" "lint">}}./vacuum lint &lt;my-openapi-spec.yaml>{{< /terminal-window >}}
+
+<video class="instruction-video" controls playsinline loop autoplay muted>
+  <source src="/assets/vacuum/mp4/checkout-source.mp4" type="video/mp4">
+</video>
 
 ---
 
