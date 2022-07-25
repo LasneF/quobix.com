@@ -15,7 +15,7 @@ I want to take you back to the fizzy and exciting times of 2016.
 
 I had just exited the [M.A.R.V.I.N project]({{< relref "/articles/marvin">}}) at VMware and was a _little lost_.
 
-I had **no mission**and **no goals**. I was floating in the ether, looking for gaps, holes, anything that I could
+I had **no mission** and **no goals**. I was floating in the ether, looking for gaps, holes, anything that I could
 fill up with and hide for a while so that I could collect my thoughts.
 
 ---
