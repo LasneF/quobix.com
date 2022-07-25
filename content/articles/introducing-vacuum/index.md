@@ -171,7 +171,7 @@ down with scale.
 My code **_didn't hold up to testing_**, mainly because of the potential for highly recursive graph data structures.
 I stood in my kitchen at night _scratching my head_ on many evenings, trying to figure it out.
 
-My [impostor syndrome]({{< relref "/articles/impostor-syndrome">}}) was in full swing, and I slid into [the pit of despair](http://localhost:1313/articles/impostor-syndrome/#the-dunning-kruger-graph).
+My [impostor syndrome]({{< relref "/articles/impostor-syndrome">}}) was in full swing, and I slid into [the pit of despair](/articles/impostor-syndrome/#the-dunning-kruger-graph).
 
 There were multiple points where I felt like **_I didn't know what I was doing_**, and I almost quit twice.
 It took me months and thousands of tests to get it right. The solution was to **change strategy** and use an index design.
