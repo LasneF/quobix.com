@@ -200,6 +200,13 @@ and [vacuum sealed reports]({{< relref "/vacuum/commands/report">}}) with much h
 
 ---
 
+### See the speed for yourself
+
+{{< youtube slYFjMpcb_c >}}
+
+---
+
+
 ## Designed for developers
 
 Suppose you want to bring ultra-fast OpenAPI linting directly into your golang application. In that case, there is a
