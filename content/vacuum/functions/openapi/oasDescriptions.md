@@ -12,6 +12,9 @@ layout: function
 
 `oasDescriptions` Checks operation descriptions have been set, and meet a minimum word count.
 
+The function will check for **both** a description **AND** a summary. If neither is found, then a warning will be
+triggered.
+
 ### How do I use this function?
 
 **_pattern_** is configured by the following `functionOptions`

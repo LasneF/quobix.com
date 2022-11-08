@@ -4,7 +4,7 @@ linkTitle: operation-description
 date: 2022-06-26T15:58:17-04:00
 draft: false
 description: |
-  Validates operations have descriptions and that they meet a minimum number of words.
+  Validates operations or summaries have descriptions and that they meet a minimum number of words.
 severity: warn
 recommended: true
 ruleType: validation
@@ -17,17 +17,20 @@ formats:
   - "oas3"
 ---
 
-Checks that an [Operation Object](https://swagger.io/specification/#operation-object) contains a `description` and that
-it meets a minimum number of words. 
+Checks that an [Operation Object](https://swagger.io/specification/#operation-object) contains a `description` OR a 
+`summary`and that it meets a minimum number of words.
 
-Descriptions for operations are **really important**. Documentation generation tools use this description as the main 
+Descriptions and summaries for operations are **really important**. Documentation generation tools use this description as the main 
 bulk of the documentation for the operation. 
 
 It's amazing how often API authors leave this blank or don't put anything meaningful in here. 
 
+The reason why both `description` and `summary` are checked? People tend to use them differently, sometimes omitting
+one, or the other, depending on how the specification is used.
+
 ## Why did this violation appear?
 
-An [Operation Object](https://swagger.io/specification/#operation-object) or more are missing a `description`, or the
+An [Operation Object](https://swagger.io/specification/#operation-object) or more are missing a `description` AND `summary`, or the
 if there is one, it's got too few words to pass. 
 
 ### Bad example
@@ -54,7 +57,7 @@ paths:
 ```
 ## How do I fix this violation?
 
-Add a `description` to the Operation, make it meaningful and useful.
+Add a `description` or a `summary` to the Operation, make it meaningful and useful.
 
 ### Spectral Equivalent
 
