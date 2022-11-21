@@ -21,7 +21,7 @@ Perhaps the 'lightest' linting there is. This rule ensures that the document pro
 
 The rule performs a schema match using **JSON Schema**
 
-[Click to see schema](https://github.com/daveshanley/vacuum/blob/main/model/schemas/oas3-schema.yaml) used to match against.
+[Click to see schema](https://github.com/daveshanley/vacuum/blob/main/model/schemas/oas3-schema.json) used to match against.
 
 ## Why did this violation appear?
 
