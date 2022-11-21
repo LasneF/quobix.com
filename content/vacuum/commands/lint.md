@@ -39,23 +39,24 @@ is the **petstorev3.json** specification.
 
 `lint` supports the following flags
 
-| Short |     Full     |  Input   | Description                                       |
-|:-----:|:------------:|:--------:|:--------------------------------------------------|
-|  -d   | _--details_  |  `bool`  | Show full details of the linting report           |
-|  -c   | _--category_ | `string` | Used with `-d`, Show a single category of results |
-|  -e   |  _--errors_  |  `bool`  | Used with `-d`, Show only reported errors         |
-|  -x   |  _--silent_  |  `bool`  | Show no output, except for the linting result     |
-|  -s   | _--snippets_ |  `bool`  | Used with `-d`, shows highlighted code in console |
-|  -h   |   _--help_   |  `bool`  | Show help screen and all flag details             |
+| Short |       Full        |  Input   | Description                                                                 |
+|:-----:|:-----------------:|:--------:|:----------------------------------------------------------------------------|
+|  -d   |    _--details_    |  `bool`  | Show full details of the linting report                                     |
+|  -c   |   _--category_    | `string` | Used with `-d`, Show a single category of results                           |
+|  -e   |    _--errors_     |  `bool`  | Used with `-d`, Show only reported errors                                   |
+|  -x   |    _--silent_     |  `bool`  | Show no output, except for the linting result                               |
+|  -s   |  _--snippets_     |  `bool`  | Used with `-d`, shows highlighted code in console                           |
+|  -n   | _--fail-severity_ | `string` | Set the level at which an error return code is thrown (defaults to `error`) |
+|  -h   |     _--help_      |  `bool`  | Show help screen and all flag details                                       |
 
 ## Global Flags
 
 `lint` supports the following _global_ flags
-
-| Short |     Full     |  Input   | Description                                       |
-|:-----:|:------------:|:--------:|:--------------------------------------------------|
-|  -r   | _--ruleset_  | `string` | Use an existing ruleset file for linting          |
-|  -t   |   _--time_   |  `bool`  | Show how long it took to lint the spec in (_ms_)  |
+    
+| Short |       Full        |  Input   | Description                                                                 |
+|:-----:|:-----------------:|:--------:|:----------------------------------------------------------------------------|
+|  -r   |    _--ruleset_    | `string` | Use an existing ruleset file for linting                                    |
+|  -t   |     _--time_      |  `bool`  | Show how long it took to lint the spec in (_ms_)                            |
 
 > Full flags begin with a double hyphen.
 
