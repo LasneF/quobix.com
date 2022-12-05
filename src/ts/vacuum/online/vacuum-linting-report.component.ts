@@ -22,6 +22,25 @@ export class VacuumLintingReportComponent extends LitElement {
   @property()
   url: string;
 
+  submitFormAndVanish(evt: Event) {
+    evt.preventDefault();
+    const form = this.renderRoot.querySelector('form');
+    form.setAttribute('method', 'post');
+    form.setAttribute('action', 'https://api.quobix.com/report');
+    form.submit();
+  }
+
+  generateViewReportButton(): TemplateResult {
+    if (this.lintingResults.uploadedText) {
+      return html`<button @click="${this.submitFormAndVanish}">
+        View Full Report &gt;
+      </button>`;
+    }
+    return html`<a href="https://api.quobix.com/report?url='${this.url}'"
+      >View Full Report &gt;</a
+    >`;
+  }
+
   render() {
     if (this.lintingError) {
       return html`
@@ -39,9 +58,28 @@ export class VacuumLintingReportComponent extends LitElement {
     }
 
     let results: TemplateResult;
+
+    let fileSize: string;
+    let fileSizeGroup = 'bytes';
+
+    if (this.lintingResults) {
+      if (this.lintingResults.statistics.filesizeKb) {
+        fileSize = this.lintingResults.statistics.filesizeKb.toLocaleString();
+        fileSizeGroup = 'kb';
+      }
+      if (this.lintingResults.statistics.filesizeBytes) {
+        fileSize =
+          this.lintingResults.statistics.filesizeBytes.toLocaleString();
+        fileSizeGroup = 'bytes';
+      }
+    }
     if (this.lintingResults) {
       const score = this.lintingResults.statistics.overallScore;
       results = html`
+        <form @submit=${this.submitFormAndVanish}>
+          <input type='hidden' name="payload" value='${
+            this.lintingResults.uploadedText
+          }'>
         <progress-bar value='${score}' label='${GetScoreEvaluation(
         score
       )}'></progress-bar>
@@ -51,7 +89,7 @@ export class VacuumLintingReportComponent extends LitElement {
         <section class='linting-statistics'>
           <div class='statistic'>
             Size
-            <h4>${this.lintingResults.statistics.filesizeKb.toLocaleString()}kb</h4>
+            <h4>${fileSize}${fileSizeGroup}</h4>
           </div>
           <div class='statistic'>
             Type
@@ -122,9 +160,8 @@ export class VacuumLintingReportComponent extends LitElement {
             }</h4>
           </div>
         </section>
-        <h3><span class='emoji'>👀</span> <a href='https://api.quobix.com/report?url=${
-          this.url
-        }'>View Full Report &gt;</a></h3>
+        <h3><span class='emoji'>👀</span> ${this.generateViewReportButton()}</h3>
+        </form>
       `;
     } else {
       results = html`<div class="lds-ellipsis">

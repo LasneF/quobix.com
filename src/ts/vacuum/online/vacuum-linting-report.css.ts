@@ -10,6 +10,21 @@ export default css`
     position: relative;
   }
 
+  button {
+    background: none;
+    font-size: var(--rule-item-header-fontsize);
+    font: var(--font-stack);
+    border: none;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  button:hover {
+    background-color: var(--primary-color);
+    color: var(--invert-font-color);
+    cursor: pointer;
+  }
+
   a {
     color: var(--primary-color);
     text-decoration: none;

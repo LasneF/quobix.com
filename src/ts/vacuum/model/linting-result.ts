@@ -54,6 +54,7 @@ export interface Statistics {
 }
 
 export interface LintingResults {
+  uploadedText: string;
   generated: string;
   resultSet: Array<LintingResult>;
   specInfo: SpecInfo;

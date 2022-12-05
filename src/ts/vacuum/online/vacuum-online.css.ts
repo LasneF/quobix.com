@@ -25,4 +25,12 @@ export default css`
       height: 600px;
     }
   }
+
+  hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: none;
+    border-top: none;
+    border-bottom: 1px dashed var(--secondary-color-lowalpha);
+  }
 `;
