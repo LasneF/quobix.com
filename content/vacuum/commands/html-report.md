@@ -28,7 +28,7 @@ self-contained, it can be used **_without_** an internet connection.
 It's ideal for rendering in a CI/CD pipeline, easily viewable by anyone.
 {{< /success-box >}}
 
-The report is generated in milliseconds and loads just as fast, even for enormous 
+The report is generated in milliseconds and loads just as fast, even for enormous specifications!
 
 The report uses [WebComponents](https://www.webcomponents.org/) via [Lit](https://lit.dev/), which means
 it renders **really, really fast**.
