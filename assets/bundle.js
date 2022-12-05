@@ -1110,7 +1110,7 @@ paths:
           </h2>
           <p>${this.lintingError.detail}</p>
         </div>
-      `;let s,c,d="bytes";if(this.lintingResults&&(this.lintingResults.statistics.filesizeKb&&(c=this.lintingResults.statistics.filesizeKb.toLocaleString(),d="kb"),this.lintingResults.statistics.filesizeBytes&&(c=this.lintingResults.statistics.filesizeBytes.toLocaleString(),d="bytes")),this.lintingResults){const p=this.lintingResults.statistics.overallScore;s=et`
+      `;let s,c,d="bytes";if(this.lintingResults&&(this.lintingResults.statistics.filesizeKb&&(c=this.lintingResults.statistics.filesizeKb.toLocaleString(),d="kb"),this.lintingResults.statistics.filesizeBytes&&!this.lintingResults.statistics.filesizeKb&&(c=this.lintingResults.statistics.filesizeBytes.toLocaleString(),d="b")),this.lintingResults){const p=this.lintingResults.statistics.overallScore;s=et`
         <form @submit=${this.submitFormAndVanish}>
           <input type='hidden' name="payload" value='${this.lintingResults.uploadedText}'>
         <progress-bar value='${p}' label='${function(t){switch(!0){case t<=10:return"Terrible";case t>10&&t<20:return"Very, very poor";case t>=20&&t<30:return"Needs tons of work!";case t>=30&&t<40:return"Not great at all";case t>=40&&t<50:return"Not great";case t>=50&&t<65:return"Weak, but passable";case t>=65&&t<75:return"OK, not too bad";case t>=75&&t<95:return"Pretty good";case t>=95:return"Excellent";default:return""}}(p)}'></progress-bar>
