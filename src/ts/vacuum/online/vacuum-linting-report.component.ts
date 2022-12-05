@@ -67,10 +67,13 @@ export class VacuumLintingReportComponent extends LitElement {
         fileSize = this.lintingResults.statistics.filesizeKb.toLocaleString();
         fileSizeGroup = 'kb';
       }
-      if (this.lintingResults.statistics.filesizeBytes) {
+      if (
+        this.lintingResults.statistics.filesizeBytes &&
+        !this.lintingResults.statistics.filesizeKb
+      ) {
         fileSize =
           this.lintingResults.statistics.filesizeBytes.toLocaleString();
-        fileSizeGroup = 'bytes';
+        fileSizeGroup = 'b';
       }
     }
     if (this.lintingResults) {
