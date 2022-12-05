@@ -64,6 +64,14 @@ without re-running any linting rules or indexing.
 "vacuum"
 "html-report">}}vacuum html-report &lt;myspec-report-07-04-22-12-13-22.json.gz&gt;{{< /terminal-window >}}
 
+## Flags
+
+`lint` supports the following flags
+
+| Short |         Full         | Input  | Description                                               |
+|:-----:|:--------------------:|:------:|:----------------------------------------------------------|
+|  -d   | _--disableTimestamp_ | `bool` | Disable the timestamp from being generated on the report. |
+
 ## Global Flags
 
 `lint` supports the following _global_ flags
