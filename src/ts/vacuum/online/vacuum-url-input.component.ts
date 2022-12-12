@@ -56,6 +56,7 @@ export class VacuumUrlInputComponent extends LitElement {
       inputClass = 'warning';
     }
     return html`
+      <h2>A: OpenAPI specification URL</h2>
       <div class="url-warning ${!showWarning ? 'hidden' : ''}">
         The URL <strong>is not valid</strong> please submit a valid URL.
       </div>
@@ -68,6 +69,7 @@ export class VacuumUrlInputComponent extends LitElement {
         @keypress="${this.keyPress}"
       />
       <button @click=${this.analyze}>Analyze</button>
+      <hr />
     `;
   }
 

@@ -36,9 +36,9 @@ export class VacuumLintingReportComponent extends LitElement {
         View Full Report &gt;
       </button>`;
     }
-    return html`<a href="https://api.quobix.com/report?url='${this.url}'"
-      >View Full Report &gt;</a
-    >`;
+    return html`<a href="https://api.quobix.com/report?url=${this.url}">
+      View Full Report &gt;
+    </a>`;
   }
 
   render() {

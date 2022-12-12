@@ -13,6 +13,17 @@ export default css`
     font-family: var(--font-stack);
   }
 
+  .warning {
+    border: 1px solid var(--terminal-yellow);
+    padding: 10px;
+    color: var(--terminal-yellow);
+    margin-bottom: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
   button {
     background-color: var(--background-color);
     border: 1px solid var(--primary-color);

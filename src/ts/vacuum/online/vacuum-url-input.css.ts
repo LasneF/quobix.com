@@ -17,6 +17,14 @@ export default css`
     color: var(--terminal-yellow);
   }
 
+  hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: none;
+    border-top: none;
+    border-bottom: 1px dashed var(--secondary-color-lowalpha);
+  }
+
   button {
     background-color: var(--background-color);
     border: 1px solid var(--primary-color);

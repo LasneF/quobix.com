@@ -8,6 +8,8 @@ import {
 import { VacuumLintingReportComponent } from './vacuum-linting-report.component';
 import { LintingResults } from '../model/linting-result';
 import { ApiError } from '../model/api-error';
+import { VacuumFileUploadComponent } from './vacuum-file-upload.component';
+import { VacuumUrlInputComponent } from './vacuum-url-input.component';
 
 @customElement('vacuum-online')
 export class VacuumOnlineComponent extends LitElement {
@@ -15,6 +17,12 @@ export class VacuumOnlineComponent extends LitElement {
 
   @query('vacuum-linting-report')
   lintingReport: VacuumLintingReportComponent;
+
+  @query('vacuum-spec-input')
+  fileUpload: VacuumFileUploadComponent;
+
+  @query('vacuum-url-input')
+  urlInput: VacuumUrlInputComponent;
 
   @state()
   lintingResults: LintingResults;
@@ -24,6 +32,12 @@ export class VacuumOnlineComponent extends LitElement {
 
   @state()
   error: ApiError;
+
+  @state()
+  showTextInput: boolean = true;
+
+  @state()
+  showFileInput: boolean = true;
 
   private submittedUrl: string;
 
@@ -41,12 +55,15 @@ export class VacuumOnlineComponent extends LitElement {
       expanded = true;
     }
 
-    return html` <h2>A: OpenAPI specification URL</h2>
-      <vacuum-url-input @urlSubmitted=${this.urlSubmitted}> </vacuum-url-input>
-
-      <hr />
-      <h2>B: Paste in your OpenAPI Spec</h2>
-      <vacuum-file-upload @textSubmitted=${this.textSubmitted}>
+    return html` <vacuum-url-input
+        @urlSubmitted=${this.urlSubmitted}
+        ?hidden="${!this.showFileInput}"
+      >
+      </vacuum-url-input>
+      <vacuum-file-upload
+        @textSubmitted=${this.textSubmitted}
+        ?hidden="${!this.showTextInput}"
+      >
         why?
       </vacuum-file-upload>
       <vacuum-linting-report
@@ -58,6 +75,7 @@ export class VacuumOnlineComponent extends LitElement {
 
   urlSubmitted(evt: CustomEvent<UrlSubmittedEvent>) {
     this.open = true;
+    this.showTextInput = false;
     this.submittedUrl = evt.detail.url;
     this.lintingResults = null;
     this.lintingReport.lintingResults = null;
@@ -67,6 +85,7 @@ export class VacuumOnlineComponent extends LitElement {
 
   textSubmitted(evt: CustomEvent<TextSubmittedEvent>) {
     this.open = true;
+    this.showFileInput = false;
     this.submittedText = evt.detail.text;
     this.lintingResults = null;
     this.lintingReport.lintingResults = null;
