@@ -739,10 +739,15 @@
       height: 600px;
     }
   }
-
-`;var fe=function(t,e,o,r){var i,n=arguments.length,a=n<3?e:null===r?r=Object.getOwnPropertyDescriptor(e,o):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(t,e,o,r);else for(var l=t.length-1;l>=0;l--)(i=t[l])&&(a=(n<3?i(a):n>3?i(e,o,a):i(e,o))||a);return n>3&&a&&Object.defineProperty(e,o,a),a},ge=function(t,e,o,r){return new(o||(o=Promise))((function(i,n){function a(t){try{s(r.next(t))}catch(t){n(t)}}function l(t){try{s(r.throw(t))}catch(t){n(t)}}function s(t){var e;t.done?i(t.value):(e=t.value,e instanceof o?e:new o((function(t){t(e)}))).then(a,l)}s((r=r.apply(t,e||[])).next())}))};let me=class extends xt{constructor(){super(...arguments),this.showTextInput=!0,this.showFileInput=!0}render(){let t,e;return this.open&&(t=!0),this.lintingResults&&(e=!0),et` 
-      <vacuum-url-input @urlSubmitted=${this.urlSubmitted} ?hidden='${!this.showFileInput}'> </vacuum-url-input>
-      <vacuum-file-upload @textSubmitted=${this.textSubmitted} ?hidden='${!this.showTextInput}'>
+`;var fe=function(t,e,o,r){var i,n=arguments.length,a=n<3?e:null===r?r=Object.getOwnPropertyDescriptor(e,o):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(t,e,o,r);else for(var l=t.length-1;l>=0;l--)(i=t[l])&&(a=(n<3?i(a):n>3?i(e,o,a):i(e,o))||a);return n>3&&a&&Object.defineProperty(e,o,a),a},ge=function(t,e,o,r){return new(o||(o=Promise))((function(i,n){function a(t){try{s(r.next(t))}catch(t){n(t)}}function l(t){try{s(r.throw(t))}catch(t){n(t)}}function s(t){var e;t.done?i(t.value):(e=t.value,e instanceof o?e:new o((function(t){t(e)}))).then(a,l)}s((r=r.apply(t,e||[])).next())}))};let me=class extends xt{constructor(){super(...arguments),this.showTextInput=!0,this.showFileInput=!0}render(){let t,e;return this.open&&(t=!0),this.lintingResults&&(e=!0),et` <vacuum-url-input
+        @urlSubmitted=${this.urlSubmitted}
+        ?hidden="${!this.showFileInput}"
+      >
+      </vacuum-url-input>
+      <vacuum-file-upload
+        @textSubmitted=${this.textSubmitted}
+        ?hidden="${!this.showTextInput}"
+      >
         why?
       </vacuum-file-upload>
       <vacuum-linting-report
@@ -834,7 +839,7 @@
         @keypress="${this.keyPress}"
       />
       <button @click=${this.analyze}>Analyze</button>
-      <hr/>
+      <hr />
     `}keyPress(t){"Enter"===t.key&&this.analyze()}analyze(){if(this.url=this.urlInput.value,this.checkUrl(this.url)){const t={detail:{url:this.url},bubbles:!0,composed:!0};this.dispatchEvent(new CustomEvent("urlSubmitted",t))}}};xe.styles=be,ye([y()],xe.prototype,"url",void 0),ye([w("input")],xe.prototype,"urlInput",void 0),ye([w("button")],xe.prototype,"goButton",void 0),ye([x()],xe.prototype,"valid",void 0),xe=ye([m("vacuum-url-input")],xe);const we=S`
   textarea {
     background: var(--terminal-header-background);
@@ -858,7 +863,6 @@
   .hidden {
     display: none;
   }
-
 
   button {
     background-color: var(--background-color);
@@ -887,7 +891,8 @@
 `;var ke=function(t,e,o,r){var i,n=arguments.length,a=n<3?e:null===r?r=Object.getOwnPropertyDescriptor(e,o):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(t,e,o,r);else for(var l=t.length-1;l>=0;l--)(i=t[l])&&(a=(n<3?i(a):n>3?i(e,o,a):i(e,o))||a);return n>3&&a&&Object.defineProperty(e,o,a),a};let $e=class extends xt{constructor(){super(...arguments),this.showWarning=!1}render(){return et`
       <h2>B: Paste in your OpenAPI Spec</h2>
       <div class="warning ${this.showWarning?"":"hidden"}">
-       Cannot submit an empty specification. Please paste (or type) in an OpenAPI Spec.
+        Cannot submit an empty specification. Please paste (or type) in an
+        OpenAPI Spec.
       </div>
       <textarea
         placeholder="openapi: 3.1
@@ -1113,7 +1118,7 @@ paths:
   }
 `;var _e=function(t,e,o,r){var i,n=arguments.length,a=n<3?e:null===r?r=Object.getOwnPropertyDescriptor(e,o):r;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)a=Reflect.decorate(t,e,o,r);else for(var l=t.length-1;l>=0;l--)(i=t[l])&&(a=(n<3?i(a):n>3?i(e,o,a):i(e,o))||a);return n>3&&a&&Object.defineProperty(e,o,a),a};let Re=class extends xt{submitFormAndVanish(t){t.preventDefault();const e=this.renderRoot.querySelector("form");e.setAttribute("method","post"),e.setAttribute("action","https://api.quobix.com/report"),e.submit()}generateViewReportButton(){return this.lintingResults.uploadedText?et`<button @click="${this.submitFormAndVanish}">
         View Full Report &gt;
-      </button>`:et`<a href='https://api.quobix.com/report?url=${this.url}'>
+      </button>`:et`<a href="https://api.quobix.com/report?url=${this.url}">
       View Full Report &gt;
     </a>`}render(){var t,e,o,r,i,n,a,l;if(this.lintingError)return et`
         <div class="api-error">

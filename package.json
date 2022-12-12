@@ -59,7 +59,8 @@
       "guard-super-call": "off",
       "no-continue": "off",
       "no-new": "off",
-      "lit/no-value-attribute": "off"
+      "lit/no-value-attribute": "off",
+      "lit/no-invalid-html": "off"
     }
   },
   "prettier": {
