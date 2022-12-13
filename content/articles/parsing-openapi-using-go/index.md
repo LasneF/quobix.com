@@ -226,7 +226,7 @@ However, if that's something that you can't do, then [libopenapi](https://github
 The process is the same as building an OpenAPI 3+ document; however, call `BuildV2Model()` instead.
 
 ```go
-// for a v2 (Swagger) specification, build a v2 mode;
+// for a v2 (Swagger) specification, build a v2 model
 swaggerDocModel, errors := document.BuildV2Model()
 ```
 
