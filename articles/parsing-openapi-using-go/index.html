@@ -10,9 +10,9 @@ that powers <a href=https://quobix.com/vacuum/>vacuum</a>.</p></div></div><hr><h
 that we&rsquo;re going to be using in this tutorial.</p><terminal-window><terminal-header>download sample petstore OpenAPI file</terminal-header>
 <terminal-command command="curl https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml > petstorev3.json" cliname=curl clicommand=https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.yaml flags=">"></terminal-command></terminal-window><p>The next step is to install <a href=https://github.com/pb33f/libopenapi>libopenapi</a> in your go application.</p><terminal-window><terminal-header>install libopenapi</terminal-header>
 <terminal-command command="go get github.com/pb33f/libopenapi" cliname=go clicommand=get flags></terminal-command></terminal-window><h2 id=2-read-in-the-petstore-openapi-specification>2. Read in the petstore OpenAPI specification</h2><p>Read the petstore OpenAPI spec into a byte slice.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-go data-lang=go><span class=line><span class=cl><span class=kn>import</span> <span class=p>(</span>
-</span></span><span class=line><span class=cl>	<span class=s>&#34;fmt&#34;</span>
-</span></span><span class=line><span class=cl>	<span class=s>&#34;github.com/pb33f/libopenapi&#34;</span>
-</span></span><span class=line><span class=cl>	<span class=s>&#34;os&#34;</span>
+</span></span><span class=line><span class=cl>  <span class=s>&#34;fmt&#34;</span>
+</span></span><span class=line><span class=cl>  <span class=s>&#34;github.com/pb33f/libopenapi&#34;</span>
+</span></span><span class=line><span class=cl>  <span class=s>&#34;os&#34;</span>
 </span></span><span class=line><span class=cl><span class=p>)</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=kd>func</span> <span class=nf>main</span><span class=p>()</span> <span class=p>{</span>
@@ -101,4 +101,4 @@ I <strong>recommend upgrading</strong> to <a href=https://spec.openapis.org/oas/
 </span></span></span><span class=line><span class=cl><span class=c1></span><span class=nx>swaggerDocModel</span><span class=p>,</span> <span class=nx>errors</span> <span class=o>:=</span> <span class=nx>document</span><span class=p>.</span><span class=nf>BuildV2Model</span><span class=p>()</span>
 </span></span></code></pre></div><p><a href=https://github.com/pb33f/libopenapi>libopenapi</a> will render a different model.
 Swagger differs in many ways from OpenAPI, so most of the model is not shared.</p><hr><p>Read the full docs for <a href=https://github.com/pb33f/libopenapi>libopenapi</a> at <a href=https://pkg.go.dev/github.com/pb33f/libopenapi>pkg.go.dev</a></p></section><hr><nav class=go-back-parent-link><a href=https://quobix.com/articles/>&lt; Back to Articles</a></nav></article></main></div><footer class=footer><a href=https://quobix.com/author>Dave Shanley</a> 2007-2022
-<span class=generated-timestamp>[generated 12/13/22 21:54 UTC]</span></footer></div></body></html>
+<span class=generated-timestamp>[generated 12/13/22 22:07 UTC]</span></footer></div></body></html>
