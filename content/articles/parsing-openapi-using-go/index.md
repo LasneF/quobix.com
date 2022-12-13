@@ -51,9 +51,9 @@ Read the petstore OpenAPI spec into a byte slice.
 
 ```go
 import (
-	"fmt"
-	"github.com/pb33f/libopenapi"
-	"os"
+  "fmt"
+  "github.com/pb33f/libopenapi"
+  "os"
 )
 
 func main() {
