@@ -333,6 +333,7 @@ figure>figcaption {
 .terminal-card>header {
     font-weight: bolder;
     font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 
