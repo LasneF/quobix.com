@@ -15,5 +15,5 @@ To be honest, this rule is a bit obscure, generally it&amp;rsquo;s not recommend
 Why did this violation appear? Multiple tags have been used in an operation.
 What is this rule checking for? Every Operation is only allowed a single tag to be defined</description></item><item><title>operation-tag-defined</title><link>https://quobix.com/vacuum/rules/tags/operation-tag-defined/</link><pubDate>Mon, 20 Jun 2022 15:53:17 -0400</pubDate><guid>https://quobix.com/vacuum/rules/tags/operation-tag-defined/</guid><description>Operation Tags are used to define operation categories or groups.
 Sometimes, tags that have been defined for an operation, have not been defined as part of the global scope of the specification.
-Why did this violation appear? A tag was used in an operation, without that tag being defined in the global scope.
-What is this rule checking for? Every Operation has to use tags that have been declared globally as part of the tags definition.</description></item></channel></rss>
+This is technically allowed, however it&amp;rsquo;s Bad OpenAPI hygiene. The rule will throw a warning. Make sure tags used by operations are always defined in the global scope of the document.
+Why did this violation appear? A tag was used in an operation, without that tag being defined in the global scope.</description></item></channel></rss>
