@@ -5,7 +5,7 @@ date: 2022-06-20T15:53:17-04:00
 draft: false
 description: |
  Check tags used in operations are defined in the global context of the specification
-severity: error
+severity: warn
 recommended: true
 ruleType: validation
 functionType: openapi
@@ -20,6 +20,9 @@ formats:
 [Operation Tags](https://swagger.io/docs/specification/grouping-operations-with-tags/) are used to define operation _categories_ or _groups_.
 
 Sometimes, tags that have been defined for an operation, have **not** been defined as part of the global scope of the specification. 
+
+This is technically allowed, however it's **Bad OpenAPI hygiene**. The rule will throw a warning. Make sure tags used by operations
+are always defined in the global scope of the document.
 
 ### Why did this violation appear?
 
