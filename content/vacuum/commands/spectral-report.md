@@ -35,6 +35,8 @@ be used.
 | Short |     Full      | Input  | Description                                               |
 |:-----:|:-------------:|:------:|:----------------------------------------------------------|
 |  -h   |   _--help_    | `bool` | Show help screen and all flag details                     |
+|  -i   |   _--stdin_   | `bool` | Use `stdin` instead of reading OpenAPI spec from a file   |
+|  -o   |  _--stdout_   | `bool` | Use `stdout` instead of writing Spectral report to a file |
 
 ## Global Flags
 
@@ -46,3 +48,16 @@ be used.
 |  -t   |   _--time_   |  `bool`  | Show how long vacuum took to run (_ms_)  |
 
 > Full flags begin with a double hyphen.
+
+## Examples
+
+### Use stdin and stdout
+
+Here is an example of how to use `stdin` and `stdout` with the `spectral-report` command, and pipe
+the output to `jq`
+
+{{< terminal-window
+"vacuum spectral-report using stdin and stdout"
+"echo"
+"vacuum"
+"spectral-report,-i,-o,jq">}}echo "openapi: 3.0.1" | vacuum spectral-report -i -o | jq {{< /terminal-window >}}

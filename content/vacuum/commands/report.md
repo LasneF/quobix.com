@@ -57,6 +57,8 @@ This will generate a **_compressed_** report from your _my-openapi-spec.yaml_ an
 |  -c   | _--compress_  | `bool` | Compress the report with gzip (**_recommended_**)         |
 |  -n   | _--no-pretty_ | `bool` | Render a machine-only version (_can't be used with_ `-c`) |
 |  -h   |   _--help_    | `bool` | Show help screen and all flag details                     |
+|  -i   |   _--stdin_   | `bool` | Use `stdin` instead of reading OpenAPI spec from a file   |
+|  -o   |  _--stdout_   | `bool` | Use `stdout` instead of writing report to a file          |
 
 ## Global Flags
 
@@ -86,9 +88,22 @@ Want something easy to copy and paste?
 {{< terminal-window
 "vacuum report using ruleset"
 "vacuum"
-"lint"
+"report"
 "-r,-c">}}vacuum report -r rulesets/examples/specific-ruleset.yaml \
 -c model/test_files/petstorev3.json petstore{{< /terminal-window >}}
+
+### Use stdin and stdout
+
+Here is an example of how to use `stdin` and `stdout` with the `report` command, and pipe
+the output to `jq`
+
+{{< terminal-window
+"vacuum report using stdin and stdout"
+"echo"
+"vacuum"
+"report,-i,-o,jq">}}echo "openapi: 3.0.1" | vacuum report -i -o | jq {{< /terminal-window >}}
+
+
 
 ## Compatible commands
 
