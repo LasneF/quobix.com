@@ -4229,10 +4229,10 @@ tr46@~0.0.3:
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
 
-ts-loader@^9.2.6:
-  version "9.2.6"
-  resolved "https://registry.npmjs.org/ts-loader/-/ts-loader-9.2.6.tgz"
-  integrity sha512-QMTC4UFzHmu9wU2VHZEmWWE9cUajjfcdcws+Gh7FhiO+Dy0RnR1bNz0YCHqhI0yRowCE9arVnNxYHqELOy9Hjw==
+ts-loader@^9.4.2:
+  version "9.4.2"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-9.4.2.tgz#80a45eee92dd5170b900b3d00abcfa14949aeb78"
+  integrity sha512-OmlC4WVmFv5I0PpaxYb+qGeGOdm5giHU7HwDDUjw59emP2UYMHy9fFSDcYgSNoH8sXcj4hGCSEhlDZ9ULeDraA==
   dependencies:
     chalk "^4.1.0"
     enhanced-resolve "^5.0.0"
@@ -4296,10 +4296,10 @@ type-is@^1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^4.4.3:
-  version "4.4.3"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz"
-  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
+typescript@^4.9.4:
+  version "4.9.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
+  integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
 
 typical@^4.0.0:
   version "4.0.0"
