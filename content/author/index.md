@@ -9,13 +9,13 @@ type: "author"
 
 **Hi, I'm Dave Shanley.**
 
-I'm a software architect, inventor, technical leader, and failed musician.
+I'm a hacker, product guy, software architect, inventor, technical leader, and failed musician.
 
-I have about twenty-five years of experience with designing and building software across various industries and businesses.
+I have about twenty-five years of experience with designing and building software and software products across various industries and businesses.
 
 My specialty is **Experience Engineering**, which _generally means_ that I design and build technology that you **_engage with_** as a consumer.
 
-I work as a **Distinguished Engineer** at [Splunk](https://splunk.com). My role is **_Architect of UI_** in the Security group. 
+I work as a **Distinguished Engineer** at [Splunk](https://splunk.com).
 
 ## Making complex things feel simple and intuitive.
 
@@ -25,7 +25,7 @@ The easy button means abstracting away a lot of different technological complexi
 
 All those complexities are **pretty cool** because it means I get to touch a lot of *fast-moving* tech. 
 
-I _generally_ specialize in UI, CLI, API, and developer experience; however, I've designed and built across a **large landscape**. 
+I _generally_ specialize in UI, CLI, API, and developer experience (DX); however, I've designed and built across a **large landscape**. 
 
 I've had the pleasure of architecting and building multiple platforms, SaaS products, developer tools, frameworks, games, and enterprise-scale management systems.
 
