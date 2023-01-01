@@ -1,13 +1,13 @@
 ---
 title: "Author"
 date: 2021-09-22T16:50:55-04:00
-strapline: "All the answers to questions you've never cared about."
+strapline: "Answers to questions you've never cared about."
 draft: false
 menu: "main"
 type: "author"
 ---
 
-**Hi, I'm Dave Shanley.**
+## Hi, I'm Dave Shanley.
 
 I'm a hacker, product guy, software architect, inventor, technical leader, and [failed musician.](https://open.spotify.com/artist/3GQKa1b5anj2SX4km56oPN)
 
