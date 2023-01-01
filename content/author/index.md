@@ -9,7 +9,7 @@ type: "author"
 
 **Hi, I'm Dave Shanley.**
 
-I'm a hacker, product guy, software architect, inventor, technical leader, and failed musician.
+I'm a hacker, product guy, software architect, inventor, technical leader, and [failed musician.](https://open.spotify.com/artist/3GQKa1b5anj2SX4km56oPN)
 
 I have about twenty-five years of experience with designing and building software and software products across various industries and businesses.
 
