@@ -7,7 +7,7 @@ menu: "main"
 type: "author"
 ---
 
-## Hi, I'm Dave Shanley.
+**Hi, I'm Dave Shanley.**
 
 I'm a hacker, product guy, software architect, inventor, technical leader, and [failed musician.](https://open.spotify.com/artist/3GQKa1b5anj2SX4km56oPN)
 
