@@ -779,3 +779,19 @@ li.mobile-nav::after {
 
 
 }
+
+
+.nav-badge {
+    width: 70px;
+    vertical-align: sub;
+}
+
+.nav-badge-discord {
+    width: 88px;
+    vertical-align: sub;
+}
+
+hr.mobile-nav-divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
