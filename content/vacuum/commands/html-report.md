@@ -68,11 +68,12 @@ without re-running any linting rules or indexing.
 
 `lint` supports the following flags
 
-| Short |         Full         | Input  | Description                                               |
-|:-----:|:--------------------:|:------:|:----------------------------------------------------------|
-|  -d   | _--disableTimestamp_ | `bool` | Disable the timestamp from being generated on the report. |
+| Short |         Full         |  Input  | Description                                               |
+|:-----:|:--------------------:|:-------:|:----------------------------------------------------------|
+|  -d   | _--disableTimestamp_ | `bool`  | Disable the timestamp from being generated on the report. |
+|  -q   |     _--no-style_     | `bool`  | Disable color and style console output (useful for CI/CD) |
 
-## Global Flags
+## Global Flags 
 
 `lint` supports the following _global_ flags
 

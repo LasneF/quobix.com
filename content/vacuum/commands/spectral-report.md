@@ -32,11 +32,12 @@ be used.
 
 `spectral-report` supports the following flags
 
-| Short |     Full      | Input  | Description                                               |
-|:-----:|:-------------:|:------:|:----------------------------------------------------------|
-|  -h   |   _--help_    | `bool` | Show help screen and all flag details                     |
-|  -i   |   _--stdin_   | `bool` | Use `stdin` instead of reading OpenAPI spec from a file   |
-|  -o   |  _--stdout_   | `bool` | Use `stdout` instead of writing Spectral report to a file |
+| Short |     Full     |  Input  | Description                                                |
+|:-----:|:------------:|:-------:|:-----------------------------------------------------------|
+|  -h   |   _--help_   | `bool`  | Show help screen and all flag details                      |
+|  -q   | _--no-style_ | `bool`  | Disable color and style console output (useful for CI/CD)  |
+|  -i   |  _--stdin_   | `bool`  | Use `stdin` instead of reading OpenAPI spec from a file    |
+|  -o   |  _--stdout_  | `bool`  | Use `stdout` instead of writing Spectral report to a file  |
 
 ## Global Flags
 

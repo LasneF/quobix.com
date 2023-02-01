@@ -16,10 +16,10 @@
         </section>
         {{- if or (gt .WordCount 200) (.Params.showTOC) -}}
         <div class="right-nav">
-            <asisde class="table-of-contents">
+            <aside class="table-of-contents">
                 <p>What's on this page</p>
                 {{ .TableOfContents }}
-            </asisde>
+            </aside>
         </div>
         {{- end -}}
     </main>

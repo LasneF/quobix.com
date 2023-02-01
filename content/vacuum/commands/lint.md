@@ -45,8 +45,9 @@ is the **petstorev3.json** specification.
 |  -c   |   _--category_    | `string` | Used with `-d`, Show a single category of results                           |
 |  -e   |    _--errors_     |  `bool`  | Used with `-d`, Show only reported errors                                   |
 |  -x   |    _--silent_     |  `bool`  | Show no output, except for the linting result                               |
-|  -s   |  _--snippets_     |  `bool`  | Used with `-d`, shows highlighted code in console                           |
+|  -s   |   _--snippets_    |  `bool`  | Used with `-d`, shows highlighted code in console                           |
 |  -n   | _--fail-severity_ | `string` | Set the level at which an error return code is thrown (defaults to `error`) |
+|  -q   |   _--no-style_    |  `bool`  | Disable color and style console output (useful for CI/CD)                   |
 |  -h   |     _--help_      |  `bool`  | Show help screen and all flag details                                       |
 
 ## Global Flags
