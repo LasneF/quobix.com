@@ -34,7 +34,7 @@ In case you're interested in learning more, I have written an **[article on expe
 {{< /default-box >}}
 
 ## Contact
-
+- Email: dave@quobix.com
 - [LinkedIn Profile](https://www.linkedin.com/in/daveshanley/)
 - [Twitter (@daveshanley)](https://twitter.com/daveshanley)
 - [Youtube Channel](https://www.youtube.com/@quobix)
