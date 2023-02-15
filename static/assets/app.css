@@ -328,6 +328,7 @@ figure>figcaption {
 
 .terminal-card {
     margin-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .terminal-card>header {
