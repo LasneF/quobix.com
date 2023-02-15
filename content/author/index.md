@@ -15,7 +15,7 @@ I have about twenty-five years of experience with designing and building softwar
 
 My specialty is **Experience Engineering**, which _generally means_ that I design and build technology that you **_engage with_** as a consumer.
 
-I work as a **Distinguished Engineer** at [Splunk](https://splunk.com).
+I work as a **Distinguished Engineer** at [Splunk](https://splunk.com) and also, I am the founder (and chief buckaroo) of [princess beef heavy industries](https://pb33f.io).
 
 ## Making complex things feel simple and intuitive.
 
