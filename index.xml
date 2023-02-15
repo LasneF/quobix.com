@@ -339,7 +339,8 @@ The reality, however, is the term &amp;lsquo;UI&amp;rsquo; means more than a bro
 I&amp;rsquo;m a hacker, product guy, software architect, inventor, technical leader, and failed musician.
 I have about twenty-five years of experience with designing and building software and software products across various industries and businesses.
 My specialty is Experience Engineering, which generally means that I design and build technology that you engage with as a consumer.
-I work as a Distinguished Engineer at Splunk and also, I am the founder (and chief buckaroo) of princess beef heavy industries.</description></item><item><title>oas2-unused-definition</title><link>https://quobix.com/vacuum/rules/schemas/oas2-unused-definition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quobix.com/vacuum/rules/schemas/oas2-unused-definition/</guid><description>Definitions in OpenAPI 2 (Swagger) are reusable/sharable schema definitions. Any other object can reference it, to save duplication.
+I work as a Distinguished Engineer at Splunk
+Making complex things feel simple and intuitive.</description></item><item><title>oas2-unused-definition</title><link>https://quobix.com/vacuum/rules/schemas/oas2-unused-definition/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quobix.com/vacuum/rules/schemas/oas2-unused-definition/</guid><description>Definitions in OpenAPI 2 (Swagger) are reusable/sharable schema definitions. Any other object can reference it, to save duplication.
 Sometimes schema definitions are never referenced from anywhere, they are &amp;lsquo;unused&amp;rsquo; or &amp;lsquo;orphaned&amp;rsquo;.
 This could be an oversight, it could be a case where the spec was changed and new schemas have replaced older ones, and those older schema definitions were never removed.
 It&amp;rsquo;s good contract hygiene to prune anything that isn&amp;rsquo;t used, out of it.</description></item></channel></rss>
