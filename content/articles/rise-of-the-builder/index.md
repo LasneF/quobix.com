@@ -207,7 +207,7 @@ Manufacturing, logistics, farming, industry, engineering, medicine, high-tech, a
 products (**_food, medicine, equipment, tools, software_**) will see a **bountiful future.**
 
 The time of **_free money_** is over, and a massive **supply vs. demand** problem will open up everywhere.
-International trade and supply will become _more complicated_ and **_fragmented globally__*,
+International trade and supply will become _more complicated_ and **_fragmented globally_**,
 so **local production** will become the new normal (_again_).
 
 The same [local-first trend is also emerging in software development](https://martin.kleppmann.com/papers/local-first.pdf).
