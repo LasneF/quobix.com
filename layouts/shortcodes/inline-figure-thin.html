@@ -1,0 +1,5 @@
+{{ $img := .Page.Resources.GetMatch (.Get 0)}}
+<figure class="inline-figure-thin">
+  <a href="{{ $img.RelPermalink }}"><img src="{{ $img.RelPermalink }}" title="{{ .Get 1 }}" alt="{{ .Get 2 }}" /></a>
+  <figcaption>{{ .Get 1 | markdownify }}</figcaption>
+</figure>
