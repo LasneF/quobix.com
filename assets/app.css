@@ -314,8 +314,14 @@ blockquote::after {
     float: right;
 }
 
-section.article-body figure {
+
+section.article-body figure.inline-figure {
     width: 90%;
+    margin: 0 auto;
+}
+
+section.article-body figure.inline-figure-thin {
+    width: 50%;
     margin: 0 auto;
 }
 
