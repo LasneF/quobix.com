@@ -236,7 +236,7 @@ If you're a builder, **go faster**! **_Tick-tock_** goes the clock!
 
 Now is the time to put the **_pedal to the metal_** and go **harder than ever**. The bounty awaits.
 
-To learn more, I recommend '[The end of the world is just the beginning](https://amzn.to/3Z3w1cX)' by Peter Zeihan.
+To learn more, I recommend '[The end of the world is just the beginning](https://amzn.to/3Z3w1cX)' by [Peter Zeihan](https://zeihan.com/).
 
 ### If you're not a builder
 
