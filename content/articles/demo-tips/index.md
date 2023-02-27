@@ -6,6 +6,7 @@ draft: false
 menu: "articles"
 strapline: "Top tips to avoid boring and confusing your audience."
 hero: "images/hero-images/demo-tips.webp"
+heroPNG: "images/hero-images/demo-tips.png"
 heroSVG: "images/hero-images/demo-tips.webp"
 heroTitle: "Stop giving boring and confusing demonstrations"
 heroAlt: "Top 5 mistakes when giving a demo"

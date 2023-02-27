@@ -6,6 +6,7 @@ draft: false
 menu: "articles"
 strapline: "The world has changed, the rise of the builder is upon us."
 hero: "images/hero-images/rise-of-the-builder.webp"
+heroPNG: "images/hero-images/rise-of-the-builder.png"
 heroSVG: "images/hero-images/rise-of-the-builder.webp"
 heroTitle: "The time to build is back, the time to build is now."
 heroAlt: "Rise of the builder"
