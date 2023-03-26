@@ -52,14 +52,15 @@ This will generate a **_compressed_** report from your _my-openapi-spec.yaml_ an
 
 `report` supports the following flags
 
-| Short |     Full      |  Input  | Description                                               |
-|:-----:|:-------------:|:-------:|:----------------------------------------------------------|
-|  -c   | _--compress_  | `bool`  | Compress the report with gzip (**_recommended_**)         |
-|  -n   | _--no-pretty_ | `bool`  | Render a machine-only version (_can't be used with_ `-c`) |
-|  -h   |   _--help_    | `bool`  | Show help screen and all flag details                     |
-|  -q   | _--no-style_  | `bool`  | Disable color and style console output (useful for CI/CD) |
-|  -i   |   _--stdin_   | `bool`  | Use `stdin` instead of reading OpenAPI spec from a file   |
-|  -o   |  _--stdout_   | `bool`  | Use `stdout` instead of writing report to a file          |
+| Short |     Full      |  Input  | Description                                                        |
+|:-----:|:-------------:|:-------:|:-------------------------------------------------------------------|
+|  -c   | _--compress_  | `bool`  | Compress the report with gzip (**_recommended_**)                  |
+|  -n   | _--no-pretty_ | `bool`  | Render a machine-only version (_can't be used with_ `-c`)          |
+|  -h   |   _--help_    | `bool`  | Show help screen and all flag details                              |
+|  -q   | _--no-style_  | `bool`  | Disable color and style console output (useful for CI/CD)          |
+|  -i   |   _--stdin_   | `bool`  | Use `stdin` instead of reading OpenAPI spec from a file            |
+|  -o   |  _--stdout_   | `bool`  | Use `stdout` instead of writing report to a file                   |
+|  -j   |   _--junit_   | `bool`  | Render a [JUnit](https://github.com/testmoapp/junitxml) XML report |
 
 ## Global Flags
 

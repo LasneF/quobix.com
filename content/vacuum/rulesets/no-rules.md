@@ -43,3 +43,20 @@ Now you can run any vacuum command that supports a ruleset.
 
 There is a [specific-ruleset](https://github.com/daveshanley/vacuum/blob/main/rulesets/examples/specific-ruleset.yaml) 
 available as an example.
+
+---
+
+## What about disabling specific rules?
+
+From version `v0.0.54`+ you can disable rules by using `false`. As [requested here](https://github.com/daveshanley/vacuum/issues/252),
+the feature allows you to disable rules in an existing ruleset (_like the recommended/default one_) without having to create a new ruleset.
+
+The example below explains how to disable two of the rules in the recommended ruleset.
+
+```yaml
+extends: [[spectral:oas, recommended]]
+rules:
+  operation-operationId: false
+  description-duplication: false
+```
+

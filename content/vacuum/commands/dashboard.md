@@ -69,8 +69,9 @@ Simply replace the **_&lt;my-openapi-spec.yaml&gt;_** with the report file, whic
 
 ## Global Flags
 
-`lint` supports the following _global_ flags
+`dashboard` supports the following _global_ flags
 
-| Short |     Full     |  Input   | Description                                       |
-|:-----:|:------------:|:--------:|:--------------------------------------------------|
-|  -r   | _--ruleset_  | `string` | Use an existing ruleset file for linting          |
+| Short |     Full     |  Input   | Description                                                       |
+|:-----:|:------------:|:--------:|:------------------------------------------------------------------|
+|  -r   | _--ruleset_  | `string` | Use an existing ruleset file for linting                          |
+|  -p   | _--base_     | `string` | Base URL or Base working directory to use for relative references |

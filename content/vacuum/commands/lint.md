@@ -54,10 +54,11 @@ is the **petstorev3.json** specification.
 
 `lint` supports the following _global_ flags
     
-| Short |       Full        |  Input   | Description                                                                 |
-|:-----:|:-----------------:|:--------:|:----------------------------------------------------------------------------|
-|  -r   |    _--ruleset_    | `string` | Use an existing ruleset file for linting                                    |
-|  -t   |     _--time_      |  `bool`  | Show how long it took to lint the spec in (_ms_)                            |
+| Short |    Full     |  Input   | Description                                                                 |
+|:-----:|:-----------:|:--------:|:----------------------------------------------------------------------------|
+|  -r   | _--ruleset_ | `string` | Use an existing ruleset file for linting                                    |
+|  -t   |  _--time_   |  `bool`  | Show how long it took to lint the spec in (_ms_)                            |
+|  -p   | _--base_    | `string` | Base URL or Base working directory to use for relative references |
 
 > Full flags begin with a double hyphen.
 
