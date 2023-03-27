@@ -47,6 +47,19 @@ When re-playing a compressed report, vacuum will automatically detect that it's 
 This will generate a **_compressed_** report from your _my-openapi-spec.yaml_ and will save the file as 
 **myreport-MM-DD-YY-HH-MM-SS.json.gz**.
 
+---
+
+## JUnit XML Support
+
+Are you using Jenkins or some other CI that supports JUnit XML reports? vacuum can generate a JUnit XML report
+instead of a vacuum format JSON report.
+
+Since `v0.0.54`, the `-j` or `--junit` flag can be used to generate a JUnit XML report instead of a vacuum format JSON report.
+
+{{< terminal-window
+"vacuum report with junit output"
+"vacuum"
+"report" "-j">}}vacuum report -j model/test_files/petstorev3.json myreport{{< /terminal-window >}}
 
 ## Available Flags
 
