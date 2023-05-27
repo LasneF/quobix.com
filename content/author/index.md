@@ -7,7 +7,7 @@ menu: "main"
 type: "author"
 ---
 
-**Hi, I'm Dave Shanley.**
+**Hi, My name is quobix.[^1]**
 
 I'm a hacker, product guy, software architect, inventor, technical leader, and [failed musician.](https://open.spotify.com/artist/3GQKa1b5anj2SX4km56oPN)
 
@@ -42,3 +42,5 @@ In case you're interested in learning more, I have written an **[article on expe
 - [Youtube Channel](https://www.youtube.com/@quobix)
 - [GitHub](https://github.com/daveshanley)
 - [pb33f](https://pb33f.io)
+
+[^1]: My real name is Dave Shanley, but I go by my handle 'quobix' on the interwebs.
