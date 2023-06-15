@@ -54,3 +54,7 @@ Every [Operation Response](https://swagger.io/specification/#responses-object) i
 ### How do I fix this violation?
 
 Ensure all operations return at least one `2xx` or `3xx` response.
+
+#### Spectral Equivalent
+
+The rule is equivalent to [operation-success-response](https://meta.stoplight.io/docs/spectral/4dec24461f3af-open-api-rules#operation-success-response)
