@@ -30,7 +30,7 @@ support for your issues.
 
 It's probably also telling you to **set AllowFileLookup to true in the configuration**. What does this mean?
 
-This is vacuum telling you that it's detected a local file reference in the OpenAPI specification, and that it's
+This is vacuum telling you that its detected a local file reference in the OpenAPI specification, and that it's
 not going to resolve it without you **explicitly telling it to**.
 
 This is a _safety guard_ to prevent a run-away malicious resolving incident happening. If you remember [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell)
@@ -50,7 +50,7 @@ For example:
 
 It's probably also telling you to **set AllowRemoteLookup to true in the configuration**. What does this mean?
  
-Like with local references, telling you that it's detected a remote file reference in the OpenAPI specification, and that it's
+Like with local references, telling you that its detected a remote file reference in the OpenAPI specification, and that it's
 not going to resolve it without you **explicitly telling it to**.
 
 Same reason as local lookups. [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) is a lesson from history.
