@@ -18,6 +18,9 @@ formats:
 
 Ensure that any `429` response, contains a `Retry-After` header.    
 
+Define proper rate limiting to avoid attackers overloading the API.
+Part of that involves setting a Retry-After header so well meaning consumers are not polling and potentially exacerbating problems
+
 ## JSONPath used
 
 `$..responses.429.headers`

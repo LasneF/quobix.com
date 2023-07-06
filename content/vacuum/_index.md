@@ -1,5 +1,6 @@
 ---
-title: "vacuum"
+title: "The worlds fastest and most scalable OpenAPI quality tool."
+linkTitle: "vacuum"
 date: 2022-06-12T06:24:52-04:00
 strapline: "The world's **fastest** and most **scalable** OpenAPI linter."
 draft: false
