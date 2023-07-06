@@ -4,7 +4,7 @@ linkTitle: owasp-integer-format
 date: 2023-07-06T06:50:43-04:00
 draft: false
 description: |
-  Schema of type integer must specify minimum and maximum values (3.1+).
+  Schema of type integer must specify format of `int32` or `int64`.
 severity: error
 recommended: true
 ruleType: OWASP
