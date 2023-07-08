@@ -9,8 +9,8 @@
                 {{- range $k, $v := .Site.Menus.main }}
                 {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "vacuum" .) }}
                 <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                    <a href="{{ $v.URL }}" itemprop="item" class="menu-item {{ if eq "Vacuum" $v.Name }}active{{end}}">
-                        <span itemprop="name" class="{{ if eq "Vacuum" $v.Name }}active{{end}}">{{ $v.Name}}</span>
+                    <a href="{{ $v.URL }}" itemprop="item" class="menu-item {{ if eq "vacuum" $v.Name }}active{{end}}">
+                        <span itemprop="name" class="{{ if eq "vacuum" $v.Name }}active{{end}}">{{ $v.Name}}</span>
                         <meta itemprop="position" content="{{ add $k 1 }}">
                     </a>
                 </li>
