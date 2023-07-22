@@ -20,6 +20,8 @@ documents.
 However, `vacuum` is built to be extensible, and it is possible to lint other types of documents using the 
 [core functions]({{<ref "/vacuum/functions/core">}}).
 
+## Skipping OpenAPI checks
+
 In version `v0.2.7` a new property was added to [motor.RulesetExecution](https://github.com/daveshanley/vacuum/blob/main/motor/rule_applicator.go#L53)
 called `SkipDocumentCheck`
 
@@ -49,6 +51,8 @@ services:
     strip_path: false
     tags: []
 ```
+
+## Creating custom rules
 
 The following simple [custom ruleset]({{<ref "/vacuum/rulesets/custom-rulesets">}}) could be used to check the version:
 
