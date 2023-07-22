@@ -81,6 +81,7 @@ without re-running any linting rules or indexing.
 |:-----:|:-----------:|:--------:|:------------------------------------------------------------------|
 |  -r   | _--ruleset_ | `string` | Use an existing ruleset file for linting                          |
 |  -p   | _--base_    | `string` | Base URL or Base working directory to use for relative references |
+|  -k   | _--skip-check_ | `string` | Skip checking for a valid OpenAPI document, useful for linting fragments or non-OpenAPI documents    |
 
 ## Examples
 

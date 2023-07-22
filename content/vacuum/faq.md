@@ -64,3 +64,14 @@ For example:
 "vacuum lint with remote file references enabled"
 "vacuum"
 "lint">}}vacuum lint openapi.yaml --base https://somewhere/someplace/{{< /terminal-window >}}
+
+## Q: Can I use vacuum to lint non-OpenAPI documents?
+
+**Yes**!
+
+In version `v0.2.7` a new [Developer API]({{<ref "/vacuum/api/non-openapi">}}) was introduced that allows you to lint any document.
+
+And a new global flag `--skip-check` / `-k` was introduced that allows you to skip the OpenAPI checks, which means 
+any of the [core functions]({{<ref "/vacuum/functions/core">}}) can be used to lint **any** YAML or JSON document.
+
+This is a [community requested feature](https://github.com/daveshanley/vacuum/discussions/280).

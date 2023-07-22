@@ -75,3 +75,4 @@ Simply replace the **_&lt;my-openapi-spec.yaml&gt;_** with the report file, whic
 |:-----:|:------------:|:--------:|:------------------------------------------------------------------|
 |  -r   | _--ruleset_  | `string` | Use an existing ruleset file for linting                          |
 |  -p   | _--base_     | `string` | Base URL or Base working directory to use for relative references |
+|  -k   | _--skip-check_ | `string` | Skip checking for a valid OpenAPI document, useful for linting fragments or non-OpenAPI documents    |
