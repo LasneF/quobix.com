@@ -13,5 +13,5 @@ vacuum would slow way down on complex rules like oas3-valid-schema-example.
 It slowed down to the point where it was taking seconds to run on very large specs. This was no good.
 After a re-think and many prototypes, I designed a simple index that will seek out everything in the specification and hold a reference.</description></item><item><title>linting other documents</title><link>https://quobix.com/vacuum/api/non-openapi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://quobix.com/vacuum/api/non-openapi/</guid><description>The majority of vaccum is designed for linting OpenAPI. Most of the built in functions and rules are designed for OpenAPI documents.
 However, vacuum is built to be extensible, and it is possible to lint other types of documents using the core functions.
-In version v0.2.7 a new property was added to motor.RulesetExecution called SkipDocumentCheck
+Skipping OpenAPI checks In version v0.2.7 a new property was added to motor.RulesetExecution called SkipDocumentCheck
 This allows all OpenAPI/Swagger checks to be bypassed and allows rules to be applied to any document.</description></item></channel></rss>
