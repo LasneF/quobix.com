@@ -76,9 +76,9 @@ vacuum is available as a container, pull the image from
 To run via docker, add `dshanley/vacuum` as the docker command, like so:
 
 {{< terminal-window
-"docker dshanley/vacuum lint"
+"docker run --rm -v $PWD:/work:ro dshanley/vacuum lint"
 "dshanley/vacuum"
-"lint">}}docker dshanley/vacuum lint &lt;my-openapi-spec.yaml&gt;{{< /terminal-window >}}
+"lint">}}docker run --rm -v $PWD:/work:ro dshanley/vacuum lint &lt;my-openapi-spec.yaml&gt;{{< /terminal-window >}}
 
 ---
 
