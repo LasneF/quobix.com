@@ -1,7 +1,7 @@
 ---
-title: "Custom Functions"
-linkTitle: "Custom Functions"
-strapline: "Need more power? Want to write custom code?"
+title: "Custom Golang Functions"
+linkTitle: "Custom Go Functions"
+strapline: "Need more power? Write custom golang code!"
 date: 2022-07-03T8:20:04-04:00
 draft: false
 menu: 
@@ -21,8 +21,9 @@ Spectral does a great job with [custom functions](https://meta.stoplight.io/docs
 So, vacuum has adopted a **_very similar_** design, to facilitate custom functions.
 
 {{< info-box >}}
-vacuum is written in [go](https://go.dev/), so it can only run functions also written in [go](https://go.dev/).
+Since `v0.3.0` vacuum support [JavaScript]({{<ref "/vacuum/api/custom-javascript-functions">}}) based functions as well as golang based functions.
 {{< /info-box >}}
+
 
 ---
 
