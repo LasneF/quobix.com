@@ -29,7 +29,7 @@ To use them, you will need to create a ruleset that extends the `vacuum:owasp` r
 Create a new file (something like _owasp-rules.yaml_) and add the following YAML to it:
 
 ```yaml
-extends: [[spectral:oas, recommended], [vacuum:owasp, all]]`
+extends: [[spectral:oas, recommended], [vacuum:owasp, all]]
 ```
 
 This creates a ruleset that implements all of the [Recommended Rules]({{< ref "/vacuum/rulesets/recommended" >}}) and the [OWASP Rules]({{< ref "/vacuum/rules/owasp" >}}).
