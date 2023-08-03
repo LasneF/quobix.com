@@ -18,6 +18,8 @@ written in go?
 
 > Stop looking, you **_just found it_**.
 
+{{<youtube id="slYFjMpcb_c">}}
+
 ---
 
 ## > [Get Started in 30 seconds](/vacuum/start)

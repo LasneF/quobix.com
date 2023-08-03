@@ -29,7 +29,13 @@ Without a linter, you have no idea if your contract is **high quality**.
 
 ## Why should I use this one?
 
-After [architecting and leading]({{< relref "author" >}}) multiple company wide initiatives over multiple years to solve OpenAPI quality problems
+See how fast it is compared to [Spectral](https://stoplight.io/open-source/spectral).
+
+{{<youtube id="slYFjMpcb_c" autoplay="true">}}
+
+### Why is it so fast?
+
+After [architecting and leading]({{< relref "author" >}}) multiple company-wide initiatives over multiple years to solve OpenAPI quality problems
 at a [tech mega-corporation]({{< relref "/articles/thanks-vmware" >}}), no linter operated at the scale and speed we required.
 
 Linting was the slowest, clunkiest and the most painful part of processing OpenAPI specifications at scale. All the tools were/are still
