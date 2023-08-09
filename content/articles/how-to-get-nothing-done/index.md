@@ -160,7 +160,7 @@ Have you ever been driving down the road, suddenly realizing you were daydreamin
 
 Ever been so deeply engrossed in something that time becomes distorted and hours seem to **_fly past in minutes_**?
 
-Both are examples of a **flow state**.
+Both are examples of a [flow state](https://www.medicalnewstoday.com/articles/flow-state).
 
 A state of zen, where we can operate with only our subconscious in control (_like the driving example_), 
 or we're so interested in something that it becomes a **hyper-focus**, and everything else **_fades out_**.
