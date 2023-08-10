@@ -137,7 +137,7 @@ I totally made that quote up, but it's true.
 
 To protect our time means to **_defend against interrupts_**, so how do we do that effectively?
 
-{{<info-box>}}**Turn off all the things. Put the phone on work mode.**.{{</info-box>}}
+{{<info-box>}}**Turn off all the things. Put the phone on work mode.**{{</info-box>}}
 
 Email, Slack, Teams, Zoom, Calendar. **Close all of it**. **_Shut it down_**. 
 
