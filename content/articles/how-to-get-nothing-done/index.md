@@ -1,6 +1,6 @@
 ---
 title: "How to get nothing done"
-description: Do you struggle to find time to get stuff done? Always being interrupted or overwhelmed? I hear you. here are three simple tricks that I use to get shit done.
+description: Do you struggle to find time to get stuff done? Always being interrupted or overwhelmed? I hear you. Here are three simple techniques that I use to get shit done.
 date: 2023-08-09T05:30:38-05:00
 draft: false
 menu: "articles"
@@ -103,7 +103,7 @@ Our minutes are **_grabbed_** and **_stolen_** from every angle.
 
 _VPs_, _Managers_, _Product Managers_, _Peers_, _Designers_, _Operations_, and _Support_, **everyone wants our time**.
 
-The **_first trick_** to learn is that **greed is good** when it comes to _time_.
+The **_first technique_** to learn is that **greed is good** when it comes to _time_.
 
 ---
 
@@ -125,7 +125,7 @@ If it were money, we would all be **_much more protective_** of people trying to
 
 Time is money. Protect it like you would your physical assets. Protect your time like you would gold coins.
 
-The second trick to productivity is **_removing interrupts_**.
+The **second technique** to productivity is **_removing interrupts_**.
 
 ---
 
@@ -169,7 +169,7 @@ In a flow state, we unlock our minds and are free to roam and use all the creati
 Like meditation, it takes **_practice_**, **_focus_**, and **_removing distractions_**.
 {{</card>}}
 
-The third trick in our toolkit is **_being brave_** and saying **no**.
+The **third technique** in our toolkit is **_being brave_** and saying **no**.
 
 ---
 
@@ -197,7 +197,7 @@ Be brave, and hit '**reject**.'
 
 ---
 
-These three skills allow us to protect our precious hours from time burglars. When combined, it's how you **get shit done**.
+These three techniques allow us to protect our precious hours from time burglars. When combined, it's how you **get shit done**.
 
 ### Block out your time.
 
