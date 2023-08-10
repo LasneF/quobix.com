@@ -1,6 +1,6 @@
 ---
 title: "How to get nothing done"
-description: Do you struggle to find time to get stuff done? Always being interrupted or overwhelmed? I hear you, here are three simple tricks that I use to get shit done.
+description: Do you struggle to find time to get stuff done? Always being interrupted or overwhelmed? I hear you. here are three simple tricks that I use to get shit done.
 date: 2023-08-09T05:30:38-05:00
 draft: false
 menu: "articles"
@@ -109,7 +109,7 @@ The **_first trick_** to learn is that **greed is good** when it comes to _time_
 
 ## Calendar Defense
 
-Until you reach the lofty heights of an executive role, you probably have to manage your calendar, just like me. So to become effective in very senior positions - learning to defend your calendar is a must.
+Until you reach the lofty heights of an executive role, you probably have to manage your own calendar, just like me. So to become effective in very senior positions - learning to defend your calendar is a must.
 
 Before the week begins...
 
@@ -146,7 +146,7 @@ brain and interrupt any flow state.
 
 When we're in our specially boxed time, we must treat the space inside that box as **sacred**. **_No distractions!_**
 
-That Slack message can wait, and _who reads email anymore anyway_?.
+That Slack message can wait, and _who reads email anymore anyway_?
 
 We should be free to achieve a flow state in our boxed time. Flow comes from **_immersion_**, and **_immersion_** requires 
 **focus**.
