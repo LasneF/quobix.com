@@ -16,16 +16,20 @@ formats:
  - "oas3"
 ---
 
-Perhaps the 'lightest' linting there is. This rule ensures that the document provided, matches the schema of an [OpenAPI 3](https://swagger.io/specification/)
-(OpenAPI 3.0) document. 
+Perhaps the 'lightest' linting there is. This rule ensures that the document provided, matches the schema of an [OpenAPI 3.0+](https://swagger.io/specification/)
+document or [OpenAPI 3.1](https://spec.openapis.org/oas/latest.html). 
 
 The rule performs a schema match using **JSON Schema**
 
-[Click to see schema](https://github.com/daveshanley/vacuum/blob/main/model/schemas/oas3-schema.json) used to match against.
+- [OpenAPI 3.0+ Schema](https://github.com/pb33f/libopenapi/blob/main/datamodel/schemas/oas3-schema.json)
+- [OpenAPI 3.1+ Schema](https://github.com/pb33f/libopenapi/blob/main/datamodel/schemas/oas31-schema.json)
+
+The schemas are built into [libopenapi](https://pb33f.io/libopenapi).
 
 ## Why did this violation appear?
 
-The spec provided is not a valid [OpenAPI 3](https://swagger.io/specification/) specification.
+The spec provided is not a valid [OpenAPI 3](https://swagger.io/specification/) or [OpenAPI 3.1](https://spec.openapis.org/oas/latest.html) 
+specification.
 
 ### How do I fix this violation?
 
