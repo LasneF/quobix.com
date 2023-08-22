@@ -177,7 +177,7 @@ The **third technique** in our toolkit is **_being brave_** and saying **no**.
 
 Look at **_all those meetings_** on your calendar. Impressive!
 
-The problem with meetings is that they generally save time for most participants. 
+The problem with meetings is that they generally waste time for most participants. 
 Many are '_group_' meetings, where a **_few people talk_**, and everyone else _listens_.
 
 Every second we **_sit doing nothing_** in a meeting is a second we're **wasting being productive**. 
