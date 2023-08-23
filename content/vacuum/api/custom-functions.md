@@ -233,3 +233,38 @@ because the version of go that you're using locally, is different to the one use
 
 There is [an example function plugin](https://github.com/daveshanley/vacuum/tree/main/plugin/sample) available that shows
 a couple of custom functions being defined, That are then called by a [custom ruleset](https://github.com/daveshanley/vacuum/blob/main/rulesets/examples/sample-plugin-ruleset.yaml).
+
+To run the example, clone the vacuum repo, and change into the `plugin/sample` directory.
+
+{{< terminal-window
+"clone vacuum and change into sample plugin directory"
+"git" "clone">}}git clone https://github.com/daveshanley/vacuum.git && \
+cd vacuum/plugin/sample{{< /terminal-window >}}
+
+Build the sample plugin.
+
+{{< terminal-window
+"compile function and boot loader as plugin"
+"go" "build">}}go build -buildmode=plugin .{{< /terminal-window >}}
+
+Go back up into the vacuum directory and compile vacuum
+
+{{< terminal-window
+"compile vacuum"
+"go" "build">}}cd ../../ && go build vacuum.go{{< /terminal-window >}}
+
+Now we can run the sample ruleset that uses custom functions, with an OpenAPI specification. Use the `-f` flag
+to specify the path to the sample plugin.
+
+{{< terminal-window
+"run vacuum with custom functions"
+"./vacuum" "lint">}}./vacuum lint -r rulesets/examples/sample-plugin-ruleset.yaml \
+-f plugin/sample /path/to/openapi.yaml{{< /terminal-window >}}
+
+The following output should be displayed: 
+
+```
+Located custom function plugin: plugin/sample/sample.so
+Loaded 2 custom function(s) successfully.
+Linting against 2 rules: https://quobix.com/vacuum/rulesets/custom-rulesets
+```
