@@ -180,7 +180,7 @@ What started as an OpenAPI compliance tool became a tool chest of UI to API diag
 
 {{<info-box>}}**_No fucking problem_**, mate.{{</info-box>}}
 
-_Bish_, _bosh_, **done**! A week later, It was all done: a drop-in replacement for webpack devServer and a 
+_Bish_, _bosh_, **done**! A week later, It was all done: a drop-in replacement for [webpack devServer](https://webpack.js.org/configuration/dev-server/) and a 
 supercharged API diagnostics toolkit rolled into one!
 
 After a few small automation and some harnessing changes - wiretap has entirely replaced webpack devServer as the 
