@@ -8,7 +8,7 @@ strapline: The world's sexiest OpenAPI breaking changes detector.
 hero: "images/hero-images/introducing-openapi-changes.webp"
 heroPNG: "images/hero-images/introducing-openapi-changes.png"
 heroSVG: "images/hero-images/introducing-openapi-changes.webp"
-heroTitle: "Introducing openapi-changes"
+heroTitle: "openapi-changes is the world's sexiest OpenAPI breaking changes detector."
 heroAlt: "How to tell what changed with your OpenAPI specification"
 ---
 
@@ -58,7 +58,7 @@ Now, it could create a changelog by reading a left and right model and determini
 
 ## Except it is bad.
 
-`wch` is _quirky, inaccurate, buggy_, and **complex**. Given the option, it's something other than what I would want to use. 
+**_wch_** is _quirky, inaccurate, buggy_, and **complex**. Given the option, it's something other than what I would want to use. 
 
 {{<error-box>}}It's not an option anyway, none of the code is open-source. It's **proprietary**.{{</error-box>}}
 
@@ -163,6 +163,8 @@ all the same data available in the [html-report](https://pb33f.io/openapi-change
 
 [openapi-changes](https://pb33f.io/openapi-changes/) comes with support for Github out of the box. 
 There is no need to check out the entire repository; point at the repo, and the tool will do the rest!
+
+---
 
 ## Take a quick tour.
 
