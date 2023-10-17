@@ -81,4 +81,4 @@ Make sure **$ref** values are the only child node, don't place anything next to 
 
 #### Spectral Equivalent
 
-The rule is equivalent to [no-$ref-siblings](https://meta.stoplight.io/docs/spectral/4dec24461f3af-open-api-rules#no-$ref-siblings)
+The rule is equivalent to [no-$ref-siblings](https://meta.stoplight.io/docs/spectral/4dec24461f3af-open-api-rules#no-ref-siblings)
